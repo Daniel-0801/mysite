@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蒼乃建設</title>
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+<body>
+ <div class="wrap">
+     <!--header-->
+    <div class="header-wrap">
+     <div class="header-container w-1100px">
+      <header class="header d-flex justify-content-between align-items-center">
+        <!--header-logo-->
+        <h1>
+         <a href="#"><img src="./img/header_logo.png" alt="蒼乃建設" class="border-none align-bottom header-logo"></a>
+        </h1>
+        <nav class="header-nav">
+         <ul class="d-flex">
+          <li class="text-decoration-none mx-4"><a href="#news" class="text-decoration-none text-white h6">Event</a></li>
+          <li class="text-decoration-none mx-4"><a href="#gallery" class="text-decoration-none text-white h6">Gallery</a></li>
+          <li class="text-decoration-none mx-4"><a href="#recruit" class="text-decoration-none text-white h6">Recruit</a></li>
+          <li class="text-decoration-none mx-4"><a href="#" class="text-decoration-none text-white h6">Inquiry</a></li>
+         </ul>
+        </nav>
+        <div class="header-icon d-none">
+         <img src="./img/hamburger.svg" alt="menu">
+        </div>
+      </header>
+      <!--text-->
+      <p class="header-main_text p-absolute w-100% align-center text-white bg-primary w-auto">街を作る。未来を作る</p>
+     </div>
+    </div>
+    <!--event-->
+    <section class="news" id="news">
+      <h2 class="news-title text-center">Event</h2>
+      <ul class="news-list mw-700px">
+       <li>
+         <a href="#" class="d-block text-decoration-none">
+           <span class="news-list__block">2020.11.17<span class="news-list__border d-inline-block">お知らせ</span></span>本社打合せ室が完成しました。
+         </a>
+       </li>
+       <li>
+         <a href="#" class="d-block text-decoration-none">
+           <span class="news-list__block">2020.11.10<span class="news-list__border d-inline-block">お知らせ</span></span>【メディア掲載】住宅雑誌 2020年11月号
+         </a>
+       </li>
+       <li>
+         <a href="#" class="d-block text-decoration-none">
+           <span class="news-list__block">2020.11.01<span class="news-list__border d-inline-block">お知らせ</span></span>HP が完成しました。
+         </a>
+       </li>
+      </ul>
+    </section>
+    <!--gallery-->
+    <section class="case" id="gallery">
+      <h2 class="case-title text-center">Gallery</h2>
+      <div class="d-flex flex-wrap">
+        <section class="case-content text-center col-bg-6 pb-5">
+          <p class="case-content__img mx-auto">
+            <img src="./img/isfahan.jpeg" alt="Ali Qapu Palace" class="w-100% gallery-img">
+          </p>
+          <h3 class="case-content__title h4">アリ・カプ宮殿</h3>
+          <p class="case-content__text h6">イラン イスファハーン</p>
+          <a href="https://www.instagram.com/daniel__journey/" target="_blank" class="case-content__btn d-block"><img src="./img/more.png" alt="詳細を見る"></a>
+        </section>
+        <section class="case-content text-center col-bg-6 pb-5">
+          <p class="case-content__img mx-auto">
+            <img src="./img/golden_temple.jpeg" alt="Golden Temple" class="w-100% gallery-img">
+          </p>
+          <h3 class="case-content__title h4">ゴールデンテンプル</h3>
+          <p class="case-content__text h6">インド アムリトサル</p>
+          <a href="https://www.instagram.com/daniel__journey/" target="_blank" class="case-content__btn d-block"><img src="./img/more.png" alt="詳細を見る"></a>
+        </section>
+        <section class="case-content text-center col-bg-6 pb-5">
+          <p class="case-content__img mx-auto">
+            <img src="./img/parliament.jpeg" alt="Hungarian Parliament" class="w-100% gallery-img">
+          </p>
+          <h3 class="case-content__title h4">国会議事堂</h3>
+          <p class="case-content__text h6">ハンガリー ブダペスト</p>
+          <a href="https://www.instagram.com/daniel__journey/" target="_blank" class="case-content__btn d-block"><img src="./img/more.png" alt="詳細を見る"></a>
+        </section>
+        <section class="case-content text-center col-bg-6 pb-5">
+          <p class="case-content__img mx-auto">
+            <img src="./img/yoshinoya.jpeg" alt="yoshinoya" class="w-100% gallery-img">
+          </p>
+          <h3 class="case-content__title h4">吉野家 Bangkok</h3>
+          <p class="case-content__text h6">タイ バンコク</p>
+          <a href="https://www.instagram.com/daniel__journey/" target="_blank" class="case-content__btn d-block"><img src="./img/more.png" alt="詳細を見る"></a>
+        </section>
+      </div>
+      <p class="case-btn text-center"><a href="https://www.instagram.com/daniel__journey/" class="text-decoration-none d-inline-block text-dark h5">その他一覧</a></p>
+
+     <!--Gray background-->
+     <div id="grayDisplay"></div>
+    </section>
+    <!--links-->
+    <div class="links d-flex pt-4" id="recruit">
+      <a href="#" class="link-img d-flex"><img src="./img/company.png" alt="企業理念"></a>
+      <a href="#" class="link-img d-flex"><img src="./img/recruit.png" alt="採用情報"></a>
+      <a href="#" class="link-img d-flex"><img src="./img/contact.png" alt="お問い合わせ"></a>
+    </div>
+    <footer class="footer bg-dark">
+      <div class="footer-content mx-auto">
+        <div class="footer-nav d-flex justify-content-between align-items-center pt-3 mb-5">
+          <p>
+            <a href="#"><img src="./img/footer_logo.png" alt="footer-logo" class="footer-logo"></a>
+          </p>
+          <!--footer navi-->
+          <nav class="footer-nav__list">
+           <ul class="d-flex">
+             <li class="mx-3"><a href="#" class="text-white h6 text-decoration-none">企業理念</a></li>
+             <li class="mx-3"><a href="#" class="text-white h6 text-decoration-none">施工事例</a></li>
+             <li class="mx-3"><a href="#" class="text-white h6 text-decoration-none">採用情報</a></li>
+             <li class="mx-3"><a href="#" class="text-white h6 text-decoration-none">お問い合わせ</a></li>
+           </ul> 
+          </nav>
+        </div>
+        <p class="copyright text-white h7 text-center">Copyright © 2021 Daichi Kato.</p>
+      </div>
+    </footer>
+
+    <!--Go to top-->
+    <div id="page_top"><a href="#" clas="text-center text-decoration-none">⬆︎</a></div>
+ </div>
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+ <script src="./js/script.js"></script>
+</body>
+</html>
